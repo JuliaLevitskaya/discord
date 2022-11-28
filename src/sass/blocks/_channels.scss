@@ -1,10 +1,11 @@
 .channels {
     width: 72px;
+    position: relative;
     background: #202225;
     padding: 8px;
     display: flex;
     justify-content: center;
-    min-height: 1100px;
+    min-height: 810px;
     .separator {
         width: 32px;
         height: 2px;
