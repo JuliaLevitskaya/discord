@@ -1,10 +1,14 @@
 .list__friends {
     position: relative;
-    min-height: 805px;
+    min-height: 790px;
     width: 240px;
     background-color: #36393F;
     padding: 10px;
+    .search__form {
+        border-bottom: 2px solid #23252a;
+    }
     .search {
+        margin-bottom: 19px;
         width: 240px;
         padding: 8px;
         background: #202225;

@@ -1,3 +1,4 @@
+@import 'blocks/search__friends';
 @import 'blocks/channels';
 @import 'blocks/list__friends';
 @import 'blocks/header';
@@ -15,7 +16,7 @@
 }
 
 .discord {
-    min-height: 805px;
+    min-height: 790px;
     display: flex;
 }
 
