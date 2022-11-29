@@ -1,5 +1,6 @@
 @import 'blocks/channels';
 @import 'blocks/list__friends';
+@import 'blocks/header';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Montserrat:wght@400;700&display=swap');
 * {
     margin: 0;
@@ -15,5 +16,9 @@
 
 .discord {
     min-height: 805px;
+    display: flex;
+}
+
+.discord__field {
     display: flex;
 }

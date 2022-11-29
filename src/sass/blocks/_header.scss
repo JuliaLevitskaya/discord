@@ -1,0 +1,30 @@
+.header {
+    height: 30px;
+    width: 1053px;
+    background-color: #36393F;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    &__categories {
+        width: 470px;
+        display: flex;
+        justify-content: space-between;
+        .header__category {
+            font-weight: 500;
+            font-size: 14px;
+            color: #96989D;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        .header__category-green {
+            color: #3BA55D;
+        }
+    }
+    .header__settings {
+        margin-top: 5px;
+        &-icon {
+            margin-right: 8px;
+            cursor: pointer;
+        }
+    }
+}
