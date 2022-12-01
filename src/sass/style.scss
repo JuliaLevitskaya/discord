@@ -2,6 +2,9 @@
 @import 'blocks/channels';
 @import 'blocks/list__friends';
 @import 'blocks/header';
+@import 'blocks/variables';
+@import 'blocks/light__theme';
+@import 'blocks/dark__theme';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Montserrat:wght@400;700&display=swap');
 * {
     margin: 0;
@@ -22,4 +25,24 @@
 
 .discord__field {
     display: flex;
+}
+
+.theme__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 104px;
+    bottom: 36px;
+    padding: 10px 12px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(163, 163, 163);
+    &:hover {
+        transition: 0.5s all;
+        background-color: rgb(125, 142, 180);
+    }
 }

@@ -1,6 +1,7 @@
 .list__friends {
     position: relative;
     min-height: 790px;
+    border-right: 1px solid #5a5a5a;
     width: 240px;
     background-color: #36393F;
     padding: 10px;
@@ -30,7 +31,7 @@
         &-title {
             font-weight: 500;
             font-size: 16px;
-            color: #FFFFFF;
+            color: var(--white);
             margin-left: 15px;
             margin-top: 3px;
         }
@@ -53,7 +54,7 @@
         &-title {
             font-weight: 500;
             font-size: 16px;
-            color: #FFFFFF;
+            color: var(--white);
             margin-right: 15px;
             margin-top: 20px;
             margin-left: 10px;
@@ -103,14 +104,14 @@
                 margin-top: 5px;
                 font-size: 12px;
                 margin-left: 15px;
-                color: #FFFFFF;
+                color: var(--white);
             }
             .discord__acc-code {
                 font-weight: 400;
                 font-size: 11px;
                 margin-left: 15px;
                 margin-top: 5px;
-                color: #96989D;
+                color: var(--white);
             }
         }
         .discord__acc-sound {

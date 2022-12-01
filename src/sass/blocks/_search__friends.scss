@@ -1,12 +1,13 @@
 .search__friends {
-    background-color: #36393F;
+    background-color: #42464e;
     min-height: 703px;
     padding: 30px;
+    position: relative;
     display: flex;
     &-title {
         font-weight: 700;
         font-size: 16px;
-        color: #FFFFFF;
+        color: var(--white);
     }
     &-subtitle {
         font-weight: 400;
@@ -16,6 +17,8 @@
     }
     .search__friends-field {
         margin-right: 10px;
+        border-right: 1px solid #5a5a5a;
+        padding-right: 15px;
     }
     .search__friends-input {
         width: 780px;
@@ -31,9 +34,11 @@
     }
     .search__friends-form {
         position: relative;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #5a5a5a;
     }
     .search__friends-btn {
-        bottom: 12px;
+        bottom: 26px;
         position: absolute;
         right: 17px;
         padding: 8px 16px;

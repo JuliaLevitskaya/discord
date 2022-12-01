@@ -1,19 +1,5 @@
 .channels {
-    width: 72px;
-    position: relative;
-    background: #202225;
-    padding: 8px;
-    display: flex;
-    justify-content: center;
-    min-height: 800px;
-    .separator {
-        width: 32px;
-        height: 2px;
-        background: #373A3F;
-        border-radius: 2px;
-        margin-top: 10px;
-        margin-left: 7px;
-    }
+    background: #E3E5E8;
     &__icon {
         cursor: pointer;
         margin-top: 15px;
@@ -32,7 +18,7 @@
             top: 19px;
             left: -18px;
             height: 40px;
-            background-color: var(--white);
+            background-color: black;
             border-radius: 0px 4px 4px 0px;
         }
     }
@@ -45,7 +31,7 @@
             top: 36px;
             left: -18px;
             height: 8px;
-            background: var(--white);
+            background: black;
             border-radius: 0px 4px 4px 0px;
         }
     }

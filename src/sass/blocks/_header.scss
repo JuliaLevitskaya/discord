@@ -1,7 +1,7 @@
 .header {
     height: 30px;
     width: 1053px;
-    background-color: #36393F;
+    background-color: #454951;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
@@ -14,8 +14,14 @@
             font-weight: 500;
             font-size: 14px;
             color: #96989D;
-            margin-top: 5px;
+            margin-top: 8px;
             cursor: pointer;
+        }
+        .header__category-active {
+            font-size: 16px;
+            color: #FFFFFF;
+            padding-right: 20px;
+            border-right: 1px solid #5a5a5a;
         }
         .header__category-green {
             color: #3BA55D;
