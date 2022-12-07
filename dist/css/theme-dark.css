@@ -1,0 +1,139 @@
+.theme__btn {
+    color: var(--white);
+    background-color: rgb(163, 163, 163);
+}
+
+.list__friends {
+    border-right: 1px solid #5a5a5a;
+    background-color: #36393F;
+}
+
+.list__friends-icon {
+    background: #4a4e55;
+}
+
+.list__friends-data {
+    background: #4a4e55;
+}
+
+.search__form {
+    border-bottom: 2px solid #23252a;
+}
+
+.search__friends-input {
+    background: #202225;
+    color: #96989D;
+}
+
+.favorites__friends {
+    background: #565a62;
+}
+
+.favorites__friends-title {
+    color: var(--white);
+}
+
+.discord__nitro-title {
+    color: #96989D;
+}
+
+.messages__plus-title {
+    color: var(--white);
+}
+
+.list__friends-icon {
+    background: #4a4e55;
+}
+
+.list__friends-data {
+    background: #4a4e55;
+}
+
+.discord__acc {
+    background-color: #1f2123;
+}
+
+.discord__acc-nickname {
+    color: var(--white);
+}
+
+.discord__acc-code {
+    color: var(--white);
+}
+
+.channels {
+    background: #202225;
+}
+
+.separator {
+    background: #373A3F;
+}
+
+.header {
+    background-color: #454951;
+    border-bottom: 2px solid #23252a;
+}
+
+.header__category {
+    color: #96989D;
+}
+
+.header__category-active {
+    color: #FFFFFF;
+    border-right: 1px solid #5a5a5a;
+}
+
+.header__category-green {
+    color: #3BA55D;
+}
+
+.search {
+    background: #565a62;
+    color: white;
+}
+
+.search__friends {
+    background-color: #42464e;
+}
+
+.empty-descr {
+    color: #9C9FA3;
+}
+
+.search__friends-none {
+    color: #96989D;
+}
+
+.search__friends-title {
+    color: var(--white);
+}
+
+.search__friends-subtitle {
+    color: #96989D;
+}
+
+.search__friends-field {
+    border-right: 1px solid #5a5a5a;
+}
+
+.search__friends-input {
+    background: #202225;
+    color: #96989D;
+}
+
+.search__friends-form {
+    border-bottom: 1px solid #5a5a5a;
+}
+
+.search__friends-btn {
+    background: #3C438B;
+    color: #8F9092;
+}
+
+.changeTheme[data-theme='light'] {
+    display: block;
+}
+
+.changeTheme[data-theme='dark'] {
+    display: none;
+}
